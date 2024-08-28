@@ -1,2 +1,2 @@
-export const BINARY_DIMENSION_X = 36000;
-export const BINARY_DIMENSION_Y = 17999;
+export const BINARY_DIMENSION_X = 36000/10;
+export const BINARY_DIMENSION_Y = 17999/10;
