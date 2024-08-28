@@ -1,17 +1,16 @@
 {
   "name": "sst-map-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A project for colorize map according to sea surface temperature",
   "type": "module",
-  "main": "src/dist/app.js",
+  "main": "dist/app.js",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon --exec node --loader ts-node/esm src/app.ts",
-    "start": "node src/dist/app.js",
+    "start": "node dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Olha Shapoval",
   "license": "ISC",
   "devDependencies": {
     "@types/cors": "^2.8.17",
@@ -20,10 +19,7 @@
     "@types/multer": "^1.4.12",
     "@types/node": "^22.5.0",
     "@types/unzipper": "^0.10.10",
-    "nodemon": "^3.1.4",
-    "prettier": "^3.3.3",
     "ts-node": "^10.9.2",
-    "ts-node-dev": "^2.0.0",
     "typescript": "^5.5.4"
   },
   "dependencies": {
