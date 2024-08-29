@@ -13,7 +13,6 @@ const readFile = (filePath: string): number[][] => {
     const row: number[] = [];
     for (let j = 0; j < BINARY_DIMENSION_X; j++) {
       const tempFahrenheit = buffer[index++];
-
       row.push(tempFahrenheit);
     }
 
